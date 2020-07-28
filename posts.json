@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": " Lorem ipsum dolor sit amet, consectet",
+    "body": "Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor",
+    "postedBy": "xxxExxx"
+  },
+  {
+    "id": 2,
+    "title": "asdasdLorem ipsum dolor sit amet, consectet",
+    "body": "Lasdasdasdorem ipsum dolor sit amet, consectet Lorem ipsum dolor",
+    "postedBy": "xxxExxx"
+  }
+]
