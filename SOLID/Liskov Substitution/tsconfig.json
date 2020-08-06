@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "moduleResolution": "node",
-    "typeRoots": ["node_modules/@types"], // "typeRoots": [] -> won't work
-    "types": ["node"]
-  }
-}

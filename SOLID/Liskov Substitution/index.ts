@@ -45,12 +45,12 @@ export class QuizQuestion {
     return this._correctAnswer;
   }
 }
-export class IsTrueQuestion extends QuizQuestion {
-  constructor(question) {
-    super(question, "True", "FALSE", null, null, 1);
-  }
-}
-function printOutQuestion(quiz: QuizQuestion) {
+// export class IsTrueQuestion extends QuizQuestion {
+//   constructor(question) {
+//     super(question, "True", "FALSE", null, null, 1);
+//   }
+// }
+const  printOutQuestion = (quiz: QuizQuestion) => {
   console.log(quiz.question);
   console.log(`1. ${quiz.choice1}`);
   console.log(`2. ${quiz.choice2}`);
@@ -69,5 +69,5 @@ let quizQuestion = new QuizQuestion(
 
 printOutQuestion(quizQuestion);
 
-let isTrue = new IsTrueQuestion("XXXXXX");
-printOutQuestion(isTrue);
+// let isTrue = new IsTrueQuestion("XXXXXX");
+// printOutQuestion(isTrue);
