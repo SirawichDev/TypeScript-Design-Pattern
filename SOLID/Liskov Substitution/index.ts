@@ -1,5 +1,6 @@
 /*
  * A subclass Should be used wherever it's base class can be used
+ * คลาสย่่อยควรใช้งานได้ทุกที่ๆลาาสหลักสามารถใช้ได้
  */
 
 export class QuizQuestion {
