@@ -2,6 +2,7 @@
  ** DIP Definition
  ** 1.High-level modules should not depend on low-level modules. Both should depend on the abstraction(interface).
  ** 2.Abstractions should not depend on details. Details should depend on abstractions.
+ ** high-level module ไม่ควรขึ้นตรงกับ low-lever module ทั้งสองคควรขึ้นตรงกับ interface หรือ abstraction
  * ! high-level module(concrete classes) and low-level module(concrete classes)  both should depends on abstraction or interface
  */
 
