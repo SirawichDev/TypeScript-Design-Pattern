@@ -27,7 +27,7 @@ export class QuizQuestion {
   }
 
   public get question(): string {
-    return this.question;
+    return this._question;
   }
   public get choice1(): string {
     return this._choice1;
@@ -45,18 +45,18 @@ export class QuizQuestion {
     return this._correctAnswer;
   }
 }
-// export class IsTrueQuestion extends QuizQuestion {
-//   constructor(question) {
-//     super(question, "True", "FALSE", null, null, 1);
-//   }
-// }
-const  printOutQuestion = (quiz: QuizQuestion) => {
+export class IsTrueQuestion extends QuizQuestion {
+  constructor(question: any) {
+    super(question, "True", "FALSE", "null", "null", 1);
+  }
+}
+const printOutQuestion = (quiz: QuizQuestion) => {
   console.log(quiz.question);
   console.log(`1. ${quiz.choice1}`);
   console.log(`2. ${quiz.choice2}`);
   console.log(`3. ${quiz.choice3}`);
   console.log(`4. ${quiz.choice4}`);
-}
+};
 
 let quizQuestion = new QuizQuestion(
   "Which one is my Github",
@@ -69,5 +69,5 @@ let quizQuestion = new QuizQuestion(
 
 printOutQuestion(quizQuestion);
 
-// let isTrue = new IsTrueQuestion("XXXXXX");
-// printOutQuestion(isTrue);
+let isTrue = new IsTrueQuestion("XXXXXX");
+printOutQuestion(isTrue);
