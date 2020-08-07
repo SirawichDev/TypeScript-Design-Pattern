@@ -15,7 +15,7 @@ export interface Post {
 }
 
 export interface IPostsService {
-  getAll(): Promise<Post[] & string>;
+  getAll(): Promise<Post[]>;
   save(post: Post): Promise<void>;
 }
 
