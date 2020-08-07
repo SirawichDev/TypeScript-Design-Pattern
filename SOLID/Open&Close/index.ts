@@ -1,3 +1,8 @@
+/**
+ ** Should not add stuff to complete classes
+ ** software หลััก ควรง่ายต่อการต่อยอด และ ไม่ควรถูกแก้ไข(ทำได้โดย extends)
+ */
+
 class ErrorHandler {
   private messageBox: any;
   constructor(messageBox: any) {
